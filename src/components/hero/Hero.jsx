@@ -158,12 +158,10 @@ const Hero = () => {
                 d="M 100,100 m -60,0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0"
               />
               <text className="circleText">
-                <textPath href="#innerCirclePath">Hire Now •</textPath>
+                <textPath href="#innerCirclePath">Hire now•</textPath>
               </text>
               <text className="circleText">
-                <textPath href="#innerCirclePath" startOffset="44%">
-                  Contact Me •
-                </textPath>
+                <textPath href="#innerCirclePath" startOffset="44%">Маған жаз•</textPath>
               </text>
             </svg>
             <div className="arrow">
