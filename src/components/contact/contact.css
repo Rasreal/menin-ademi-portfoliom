@@ -1,0 +1,109 @@
+.contact {
+  height: 100%;
+  display: flex;
+  gap: 100px;
+
+}
+
+
+.cSection {
+
+  margin: 50px 0px;
+  padding: 50px;
+  border-radius: 50% 0px;
+}
+
+.cSection:first-child {
+  background-color: rgba(37, 205, 191, 0.18);
+}
+
+.cSection:last-child {
+  margin-top: -5px;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(149, 56, 170, 0.29);
+  padding: 50px;
+  border-radius: 50px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 13px;
+}
+
+.formButton {
+  background-color: #ca314b;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1536px) {
+  .contact {
+    gap: calc(30px + (70 * ((100vw - 1280px) / (1536 - 1280))));
+  }
+}
+
+@media (max-width: 1280px) {
+  .form {
+    width: 100%;
+  }
+  .contact {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    gap: 25px;
+  }
+
+  .cSection:last-child {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .cSection {
+    width: 100%;
+  }
+
+
+  .cSection:first-child {
+    height: 30%;
+    width: 70%;
+  }
+  .cSection:last-child {
+    width: 80%;
+    height: 70%;
+  }
+}

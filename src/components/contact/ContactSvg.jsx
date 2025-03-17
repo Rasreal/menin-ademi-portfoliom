@@ -24,8 +24,6 @@ const ContactSvg = () => {
           repeatType: "reverse",
         }}
       />
-      {/* <!-- STRING ENDS --> */}
-      {/* <!-- PAPER STARTS --> */}
       <motion.g
         animate={{ x: [0, 10], y: [0, 10] }}
         transition={{

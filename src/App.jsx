@@ -10,11 +10,11 @@ const App = () => {
   return (
     <div className="container">
       <Suspense fallback={"loading..."}>
-        <LazyLoad height={"100vh"} offset={-100}>
-          <section id="#home">
+
+          <section id="home">
             <Hero />
           </section>
-        </LazyLoad>
+
       </Suspense>
       <Suspense fallback={"loading..."}>
         <LazyLoad height={"100vh"} offset={-100}>
@@ -25,14 +25,14 @@ const App = () => {
       </Suspense>
       <Suspense fallback={"loading..."}>
         <LazyLoad height={"600vh"} offset={-100}>
-          {/* <section id="#portfolio"> */}
-          <Portfolio />
-          {/* </section> */}{" "}
+          {/*<section id="#portfolio">*/}
+            <Portfolio />
+          {/*</section>*/}
         </LazyLoad>
       </Suspense>
       <Suspense fallback={"loading..."}>
         <LazyLoad height={"100vh"} offset={-100}>
-          <section id="#contact">
+          <section id="contact">
             <Contact />
           </section>{" "}
         </LazyLoad>

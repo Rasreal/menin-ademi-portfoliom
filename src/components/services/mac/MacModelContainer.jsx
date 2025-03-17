@@ -1,21 +1,21 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-import { ConsoleModel } from "./ConsoleModel";
 import { OrbitControls, PerspectiveCamera, Stage } from "@react-three/drei";
-import {NokiaModel} from "./NokiaModel.jsx";
+import {MacModel2} from "./Mac2.jsx";
+import {MacModel} from "./Mac.jsx";
 
-const ConsoleModelContainer = () => {
+const MacModelContainer = () => {
   return (
     <Canvas>
       <Suspense fallback="loading...">
         <Stage environment="night" intensity={0.5}>
-          <NokiaModel />
+          <MacModel />
         </Stage>
         <OrbitControls enableZoom={false} autoRotate/>
-        <PerspectiveCamera position={[-0.5,0,2]} zoom={0.6} makeDefault/>
+        <PerspectiveCamera position={[-1,0,1.8]} zoom={0.8} makeDefault/>
       </Suspense>
     </Canvas>
   );
 };
 
-export default ConsoleModelContainer;
+export default MacModelContainer;

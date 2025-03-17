@@ -115,7 +115,7 @@ const Portfolio = () => {
   //   }
   // }, []);
 
-  // FIX: Re-calculate when screen size changes
+  // FIX: пересчитать когда размер меняется
   useEffect(() => {
     const calculateDistance = () => {
       if (ref.current) {
