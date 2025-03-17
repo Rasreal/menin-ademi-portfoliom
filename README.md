@@ -82,9 +82,9 @@ If you'd like to contribute to this project, feel free to **fork** the repo and 
 
 ## 📱 Connect with Me
 
-- **GitHub**: [@your-github](https://github.com/Rasreal?tab=repositories)
-- **LinkedIn**: [@your-linkedin](https://www.linkedin.com/in/uersultan/)
-- **LeetCode**: [@your-leetcode](https://leetcode.com/u/uers/)
+- **GitHub**: [click](https://github.com/Rasreal?tab=repositories)
+- **LinkedIn**: [click](https://www.linkedin.com/in/uersultan/)
+- **LeetCode**: [click](https://leetcode.com/u/uers/)
 ```
 
 ### **Features in the README:**
