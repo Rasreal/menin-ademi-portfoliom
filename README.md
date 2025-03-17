@@ -1,6 +1,5 @@
-Sure! Here's the `README.md` written in both Kazakh and English, with icons and good formatting:
 
-```markdown
+
 # 🚀 Uers Animated 3D Portfolio Website Project
 
 ## 📍 Қазақстанша (Kazakh)
@@ -39,7 +38,7 @@ Sure! Here's the `README.md` written in both Kazakh and English, with icons and 
 
 ---
 
-## 📍 English Version
+## 📍 English
 
 This project is a **React**-based portfolio website with **animated 3D elements** and **interactive features**. It utilizes **Framer Motion** for animations and **Three.js** for 3D models, which are sourced from **Sketchfab**.
 
