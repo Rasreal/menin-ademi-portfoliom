@@ -14,7 +14,7 @@ const awardVariants = {
         x: 0,
         opacity: 1,
         transition: {
-            duration: 1,
+            duration: 2,
             staggerChildren: 0.2,
         },
     },
@@ -139,9 +139,11 @@ const Hero = () => {
                     </motion.div>
                 </motion.div>
 
+
+                {/*спич, сәлем анау мынау, с фоткой*/}
                 <Speech/>
 
-                {/* CONTACT кнопкасы */}
+                {/* контакт hire now  кнопкасы */}
                 <motion.a
 
                     onClick={() => {
@@ -220,7 +222,7 @@ const Hero = () => {
                 </AnimatePresence>
             </div>
             <div className="bg">
-                {/* 3d */}
+                {/* розовое облако осында */}
                 <Canvas>
                     <Suspense fallback="loading...">
                         <Shape/>
